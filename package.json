@@ -1,0 +1,14 @@
+{
+  "name": "my-streaming-dashboard-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./--experimental-app run dev",
+    "build": "npm --prefix ./--experimental-app run build",
+    "start": "npm --prefix ./--experimental-app run start",
+    "lint": "npm --prefix ./--experimental-app run lint"
+  }
+  ,
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^6.0.0"
+  }
+}
